@@ -1,3 +1,2 @@
-# challenges
 
-# Different assignments (RoR & React)
+## Assignments (RoR & React)
