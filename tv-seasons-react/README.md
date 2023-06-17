@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# React coding challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Requirements 
 
-## Available Scripts
+* Take the accompanying JSON list of films and tv seasons. 
+* Display two buttons: "Films" and "TV Seasons". Films should be selected by default. 
+* Display a simple list of the films by default.
+* If the user clicks on "TV Seasons" the list should change to display the TV Seasons only, and the button states should change. 
 
-In the project directory, you can run:
+## What we expect from your code
 
-### `npm start`
+* Clean code
+* Consistent style
+* Extensibility
+* Maintainability
+* Testability
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Extra details
+* No styling is needed, simple raw HTML is fine 
+* No routing is needed. 
+* You're welcome to use Create React App or any other tool to bootstrap your project. 
+* Apart from what is included in your default setup, please don't use any extra libraries or external components (apart from testing libraries). 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each Film element should display: 
+* Name
+* Description 
+* Price (Buy)
+* Price (Rent)
 
-### `npm test`
+Each TV season element should display: 
+* Name
+* Description 
+* Number of episodes
+* Price (Buy)
+* Price (Rent)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Example UI 
+The ui is not important or part of this challenge - any output is fine. Here is an example that just uses raw HTML output. 
 
-### `npm run build`
+https://www.dropbox.com/s/qb0r6db29ol6yw1/react_ui.png?dl=0
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Extension 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+We'd like you to extend the code with a new data source, and a new feature. There is a new json file attached:
 
-### `npm run eject`
+* We have learned that there are some "TV Movies" in the "tv_seasons" feed. These are "seasons" with a single episode. 
+  * These are present in the TV feed, but need to be displayed in the "Films" section. 
+  * They need a label saying "TV Film" added to their content 
+* Release years have been added for all titles. 
+  * Titles should be sorted by release year. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Data
+Please use the data provided in [react_data.md](react_data.md)
